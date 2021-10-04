@@ -1,0 +1,10 @@
+.button{
+    background-color: red;
+    color: white;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
