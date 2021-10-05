@@ -1,0 +1,29 @@
+* {
+    font-family: 'Montserrat',sans-serif;
+}
+h2 {
+    font-size: 40px;
+    line-height: 10px;
+}
+h1 {
+    font-size: 60px;
+    line-height: 30px;
+}
+h3 {
+    font-size: 25px;
+    line-height: 7px;
+}
+h4 {
+    color: rgb(255, 145, 0);
+    line-height: 7px;
+}
+h5 {
+    font-size: 12px;
+    color: rgb(136, 136, 136);
+    line-height: 7px;
+}
+a {
+    color: rgb(37, 37, 37);
+}
+
+
