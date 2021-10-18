@@ -1,0 +1,108 @@
+
+.box1 {
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.box2 {
+    width: 98%;
+    height: 98% ;
+    border: 3px solid green;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.box3 {
+    width: 98%;
+    height: 98%;
+    border: 3px solid red;
+    display: block;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.cube {
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+.row {
+    display: inline-block;
+}
+.Figure1 .cube {
+    background-color: rgb(100, 100, 100);
+}
+.Figure1 .back {
+    margin-left: 60px;
+    margin-bottom: 4px;
+}
+
+.Figure1 { 
+    margin-top: 128px;
+    margin-left: 63px;
+    position: absolute;
+    transition-duration: 2s;
+    transition-timing-function: steps(4);
+}
+.Figure2 {
+    margin-top: 422px;
+    margin-left: 301px;
+    position: absolute;
+}
+.row {
+    display: inline-block;
+}
+.violet {
+    background-color: rgb(81, 14, 143);
+}
+.Figure3 {
+    margin-top: 362px;
+    margin-left: 3px;
+    position: absolute;
+}
+.Figure3 .greenyellow {
+    background-color: greenyellow;
+}
+.Figure3 .center {
+    margin: 0 auto;
+    margin-bottom: 4px;
+}
+.Figure4 {
+    margin-top: 303px;
+    margin-left: 243px;
+    position: absolute;
+    transition-duration: 1s;
+    transition-timing-function: steps(2)
+}
+.Figure4 .red {
+    background-color: red;
+}
+.Figure5 {
+    margin-top: 242px;
+    margin-left: 183px;
+    position: absolute;
+}
+.Figure5 .pink {
+    margin-bottom: 4px;
+    background-color: rgb(206, 119, 119);
+}
+
+/* aнімація */
+.box3:hover .Figure1:hover {
+    margin-top: 241px;
+}
+.box3:hover .Figure4:hover {
+    margin-top: 362px;
+}
