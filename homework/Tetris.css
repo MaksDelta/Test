@@ -53,6 +53,7 @@
     margin-top: 128px;
     margin-left: 63px;
     position: absolute;
+    /* animation: jump 2s infinite; */
     transition-duration: 2s;
     transition-timing-function: steps(4);
 }
@@ -83,6 +84,7 @@
     margin-top: 303px;
     margin-left: 243px;
     position: absolute;
+    /* animation: jump2 1s infinite; */
     transition-duration: 1s;
     transition-timing-function: steps(2)
 }
@@ -100,6 +102,43 @@
 }
 
 /* aнімація */
+/* @keyframes jump {
+    0% {
+        margin-top: 128px;
+        margin-left: 63px;
+    }
+    25% {
+        margin-top: 158px;
+        margin-left: 63px;
+    }
+    50% {
+        margin-top: 182px;
+        margin-left: 63px;
+    }
+    75% {
+        margin-top: 214px;
+        margin-left: 63px;
+    }
+    100% {
+        margin-top: 241px;
+        margin-left: 63px;
+    }
+}
+@keyframes jump2 {
+    0% {
+        margin-top: 303px;
+        margin-left: 243px;
+    }
+    50%{
+        margin-top: 336px;
+        margin-left: 243px;
+    }
+    100% {
+        margin-top: 362px;
+        margin-left: 243px;
+    }
+} */
+
 .box3:hover .Figure1:hover {
     margin-top: 241px;
 }
