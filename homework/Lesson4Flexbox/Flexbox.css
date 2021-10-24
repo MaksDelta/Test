@@ -1,0 +1,119 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    border: 1px solid black;
+}
+
+/*  Header  */
+header .top {
+    height: 80px;
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    align-items: center;
+}
+header .bunner a {
+    height: 300px;
+    display: flex;
+    background-color: rgb(51, 211, 195);
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    transition-duration: 1s;
+}
+header .bunner a h1 {
+    margin: 0px;
+    padding: 0px;
+    transition-duration: 1s;
+}
+header .bunner a p span {
+    font-weight: bold;
+}
+header nav{
+    background-color: black;
+}
+header nav ul {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li  {
+    margin: 0;
+    list-style-type: none;
+    padding: 15px 25px;
+}
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+/*  Animation for Header */
+header .bunner:hover a h1 {
+    font-size: 400%;
+}
+header nav ul li:hover a {
+    color: black;
+}
+header nav ul li:hover {
+    display: block;
+    background-color: white;
+    color: black;
+}
+
+/*  Content  */
+
+/*  Left  */
+.content {
+    display: flex;
+}
+.myself {
+    width: 51%;
+    background-color: rgb(235, 235, 235);
+}
+.myself .about {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.about div {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(127, 127, 128);
+}
+.myself .more {
+    margin-top: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.myself .more div {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(127, 127, 128);
+    margin-bottom: 25px;
+}
+
+/*  right  */
+.subtitle{
+    margin: 50px 25px 73px;
+}
+.title .subtitle div {
+    height: 250px;
+    width: 100%;
+    background-color: rgb(127, 127, 128);
+}
+
+/*  Footer  */
+footer {
+    height: 100px;
+    background-color: rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div h2 {
+    letter-spacing: 1px;
+}
