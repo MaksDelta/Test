@@ -1,0 +1,99 @@
+body {
+    width: 600px;
+    height: 600px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.Figure {
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 300px;
+    border: 5px solid;
+    border-radius: 50%;
+}
+.topCubeLeft {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    position: absolute;
+    left: 95px;
+    top: 95px;
+}
+.topCubeRight {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    position: absolute;
+    right: 95px;
+    top: 95px;
+}
+.bottomCubeLeft {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    position: absolute;
+    left: 95px;
+    bottom: 95px;
+}
+.bottomCubeRight {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    position: absolute;
+    right: 95px;
+    bottom: 95px;
+}
+.underTopLeft {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-radius: 35%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.underTopRight {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-radius: 35%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.underBottomLeft {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-radius: 35%;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+.underBottomRight {
+    height: 100px;
+    width: 100px;
+    border: 5px solid;
+    border-radius: 35%;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}

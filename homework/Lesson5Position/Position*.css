@@ -1,0 +1,54 @@
+
+.first {
+    height: 500px;
+    width: 500px;
+    color: #fff;
+    position:fixed;
+    top: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.second {
+    height: 500px;
+    width: 500px;
+    margin-top: 2000px;
+    display: flex;
+    justify-content: space-around;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+body .scrol .clean {
+height: 400px;
+width: 400px;
+}
+body .scrol .first .underFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+body .scrol .first .underFirst .silver {
+    width: 40px;
+    height: 40px;
+    background-color: silver;
+    border-radius: 10%;
+}
+body .scrol .first .underFirst div {
+    width: 40px;
+    height: 40px;
+}
+body .scrol .second .underSecond div {
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10%;
+}
+body .scrol .second .underSecond .non {
+    visibility: collapse;
+}
+body .scrol .second .underSecond {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
