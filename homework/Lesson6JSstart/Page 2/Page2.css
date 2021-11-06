@@ -1,0 +1,14 @@
+html {
+    background: linear-gradient(45deg, darkslategray, steelblue);
+}
+body p {
+    left: 5px;
+    color: white;
+}
+.fixed {
+    width: 99%;
+    height: 50px;
+    background-color: yellowgreen;
+    position: sticky;
+    top: 0;
+}

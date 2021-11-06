@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a img {
+    width: 200px;
+    height: 200px;
+    border: 30px #eb9a9a solid;
+    border-radius: 7%;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 1s;
+}
+.menu a img:hover {
+    width: 230px;
+    height: 230px;
+}
