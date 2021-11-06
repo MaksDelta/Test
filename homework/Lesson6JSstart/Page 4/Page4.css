@@ -29,6 +29,13 @@
     box-shadow: inset 0 0 0 5px black;
 } */
 
+ /* варіант 3
+
+ .field {
+     position: fixed;
+     top: 70px;
+ } */
+
 
  /* варіант який ше думаю... */
 
@@ -36,6 +43,7 @@ p {
     position: static;
     top: 70px;
 }
+
 
  
 
