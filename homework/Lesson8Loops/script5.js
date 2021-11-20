@@ -1,11 +1,11 @@
-for (let i = 1; i <= 10; i++) {
-    let st = '';
+for (let i = 0; i <= 10; i++) {
+    let str = '';
     for (let j = 0; j < 10 - i; j++) {
-        st += ' ';
+        str += ' ';
     }
     for (let k = 0; k < i; k++) {
-        st += '*';
+        str += '*';
     }
-    st += '\n';
-    console.log(st);
+    str += '\n';
+    console.log(str);
 }
