@@ -11,3 +11,7 @@ function howOldAreYou(age) {
     } else (age < 120) 
         return 'Іншим разом'
 }
+
+let age = prompt('вввввв')
+alert(age)
+
