@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Lobster&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteiner">
+
+
+        <!-- Шапка -->
+        <div class="name">
+            <h1 class="text">Погода у місті  <span class="city-name"></span></h1>
+            <p class="text">t&deg;: <span class="temperature"></span>C</p>
+            <div class="data">
+                <p id="dateId" class="text">
+                    Понеділок, 17 Січ
+                </p>
+                <p id="timeNow" class="text"></p>
+            </div>
+        </div>
+
+        <!-- Решта інфи -->
+        <div class="weather-table">
+            <div class="packege">
+                <div class="row">
+                    <div class="weather">
+                        <p class="text"> <span class="description"></span></p>
+                        <div class="icon"></div>                       
+                    </div>
+                    <div class="weather">
+                        <p class="text">Вологість</p> 
+                        <p class="text"><span class="humidity"></span>%</p>
+                    </div>
+                    <div class="weather">
+                        <p class="text">Вітер</p> 
+                        <p class="text"><span class="wind"></span> км/г</p>
+                    </div>
+                </div>                                  
+            </div>
+        </div>
+
+        <!-- Погодинно -->
+        <div class=details>
+            <div class="det">
+                <p class="text"> <span class="time1"></span></p>
+                <div class="icon"></div>
+                <p class="text">t&deg;: <span class="temperatura1"></span>C</p>
+            </div>
+            <div class="det">
+                <p class="text"> <span class="time2"></span></p>
+                <div class="icon"></div>
+                <p class="text">t&deg;: <span class="temperatura2"></span>C</p>
+            </div>
+            <div class="det">
+                <p class="text"> <span class="time3"></span></p>
+                <div class="icon"></div>
+                <p class="text">t&deg;: <span class="temperatura3"></span>C</p>
+            </div>
+            <div class="det">
+                <p class="text"> <span class="time4"></span></p>
+                <div class="icon"></div>
+                <p class="text">t&deg;: <span class="temperatura4"></span>C</p>
+            </div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

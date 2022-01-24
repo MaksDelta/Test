@@ -1,0 +1,101 @@
+* {
+    font-family: 'Lobster',
+    cursive;
+    text-transform: uppercase;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    height: 100%;
+    width: 100%;
+}
+
+.data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.name {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather-table {
+    display: flex;
+    justify-content: center;
+}
+
+.packege {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cloc {
+    font-size:20px;
+}
+
+ul {
+    padding-left: 0;
+    /* margin-left: 0; для IE і Opera */
+}
+
+li {
+    list-style-type: none;
+}
+
+.row {
+    width: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    margin: 20px;
+}
+
+.det {
+    background: rgba(27, 65, 100, 0.5);
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.text {
+    color: blanchedalmond;
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
