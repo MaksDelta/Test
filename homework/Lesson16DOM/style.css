@@ -1,0 +1,76 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    padding-left: 5%;
+    padding-top: 20px;
+}
+
+body > h1 {
+    font-size: 50px
+}
+
+.post {
+    margin-top: 15px;
+    padding: 15px;
+    width: 80%;
+    min-height: 250px;
+    border: thick double black;
+    box-sizing: content-box;
+    border-radius: 15px;
+}
+
+input {
+    margin-top: 10px;
+    width: 80%;
+    padding: 15px;
+    border: thick double rgb(23, 30, 139);
+    border-radius: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 80%;
+    min-height: 70px;
+    padding: 15px;
+    border: thick double rgb(133, 12, 12);
+    border-radius: 10px;
+}
+
+button {
+    padding: 0;
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: blue;
+    color: white;
+    border: thick double white;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+body > #comment_field > .post > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+body > #comment_field > .post > div > form {
+    width: 40%;
+}
+
+body>#comment_field>.post>div>form>input{
+    height: 100px;
+}
+
+body>#comment_field>.post>div>h3 {
+    padding-left: 0;
+}
+
+body>#comment_field>.post>div>div {
+    width: 40%;
+}
