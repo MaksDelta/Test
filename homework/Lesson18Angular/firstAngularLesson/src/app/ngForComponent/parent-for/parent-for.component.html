@@ -1,0 +1,17 @@
+<p *ngFor="let a of lutchiy"> {{a}} Maks</p>
+<ul>
+    <li><p  *ngFor="let a of shopping" [class.bold-p]="showBold" [style.color]="refreshColor" [class.text-decoration]="underline" >{{shopping}} </p>
+        <div>
+        <button (click)="refreshColor">on Make Active</button>
+        <button (click)="refreshColor">of Make Active</button>
+        </div>
+        <div>
+        <button (click)="showBold = true">on Make Bold</button>
+        <button (click)="!showBold = false">of Make Bold</button>
+        </div>
+        <div>
+        <button (click)="underline = true">on Add Line</button>
+        <button (click)="!underline = false">of Add Line</button>
+        </div>
+    </li>
+</ul>
