@@ -1,0 +1,35 @@
+@use "sass:math";
+
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.primary-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 135px;
+  height: 135px;
+  padding: 16px;
+  background: $red;
+  border: none;
+  font: $fw-600 r16px/1.5 $font-family;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  text-align: left;
+  cursor: pointer;
+
+  span {
+    display: block;
+    color: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+  }
+
+  &>&-title {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+}

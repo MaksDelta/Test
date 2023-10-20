@@ -1,0 +1,65 @@
+@use "sass:math";
+
+@import '../../mixins.scss';
+@import '../../variables.scss';
+
+section.request-pray {
+  padding: 168px 0 244px;
+  // background: $deep-dark-blue url(../../../../assets/images/home/request-pray/request-pray-section-gradient-bg.svg) no-repeat top right / cover;
+}
+
+.inner-content {
+  display: grid;
+  grid-template-columns: 40% 50%;
+  justify-content: space-between;
+}
+
+.section-title {
+  color: $white;
+  font: $fw-500 rem-calc(50px), 1.1 $font-family;
+  letter-spacing: 0.1px;
+}
+
+.description {
+  color: $white;
+  font: $fw-200 rem-calc(32px), 1.2 $font-family;
+  letter-spacing: 0.2px;
+}
+
+.map {
+  width: 100%;
+  aspect-ratio: 5/3;
+  margin-top: rem-calc(78px);
+  margin-bottom: rem-calc(25px);
+}
+
+.location-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &-time {
+    color: $white;
+    font: $fw-700 rem-calc(16px), 1.25 $font-family;
+  }
+
+  &-place {
+    color: $nobel;
+    font: $fw-500 rem-calc(16px), 1.25 $font-family;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .inner-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-title {
+    margin-bottom: rem-calc(40px);
+  }
+
+  .description {
+    margin-bottom: rem-calc(30px);
+  }
+}

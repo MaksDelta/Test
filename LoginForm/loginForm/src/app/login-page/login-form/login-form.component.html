@@ -1,0 +1,31 @@
+<form [formGroup]="contactForm">
+  <mat-form-field class="form-group" [class.error-input]="nameError" [hideRequiredMarker]="hideRequiredMarker">
+    <mat-label class="forms-item-label">Name</mat-label>
+    <input matInput formControlName="name" class="error-input">
+  </mat-form-field>
+  <mat-form-field class="form-group" [class.error-input]="emailError" [hideRequiredMarker]="hideRequiredMarker">
+    <mat-label class="forms-item-label">E-mail</mat-label>
+    <input matInput formControlName="email">
+  </mat-form-field>
+  <mat-form-field class="form-group" [class.error-input]="phoneError" [hideRequiredMarker]="hideRequiredMarker">
+    <mat-label class="forms-item-label">Phone</mat-label>
+    <input matInput formControlName="phone">
+  </mat-form-field>
+  <mat-form-field class="form-group" [class.error-input]="messageError" [hideRequiredMarker]="hideRequiredMarker">
+  
+    <mat-label class="forms-item-label">Message</mat-label>
+    <input matInput formControlName="message">
+  </mat-form-field>
+  <app-button [title]="'Підтвер-дити'" [disabled]="!filled" (click)="checkErrorName()"
+    (click)="checkErrorEmail()" (click)="checkErrorPhone()" (click)="checkErrorMessage()" (clicked)="onSubmit()">
+  </app-button>
+</form>
+
+
+
+
+
+
+
+
+<!-- [textMask]="{mask: phoneMask}" -->

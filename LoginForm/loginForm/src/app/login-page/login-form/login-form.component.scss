@@ -1,0 +1,54 @@
+@use "sass:math";
+
+@import '../../../variables.scss';
+@import '../../../mixins.scss';
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+::ng-deep .mat-focused {
+
+  .mat-form-field-ripple {
+    border-bottom: 2px solid $white
+  }
+}
+
+.form-group {
+  width: 100%;
+
+  ::ng-deep {
+    .mat-form-field-underline {
+      border-bottom: 2px solid $mako;
+    }
+  }
+
+  & input,
+  & input::placeholder {
+    font: 500 math.div(rem-calc(20px), 1.3) "Montserrat", sans-serif;
+    letter-spacing: 0.02em;
+    color: $white;
+    padding-top: rem-calc(10px);
+    padding-bottom: rem-calc(3px);
+    caret-color: $white;
+  }
+
+  .forms-item-label {
+    font: 400 math.div(rem-calc(16px), 1.8) "Montserrat", sans-serif;
+    letter-spacing: 0.04em;
+    color: $paleSky;
+  }
+}
+
+// app-primary-button {
+//   margin-top: rem-calc(60px);
+// }
+
+.error-input {
+  ::ng-deep .mat-form-field-underline {
+    border-bottom: 2px solid $pomegranate;
+  }
+}
